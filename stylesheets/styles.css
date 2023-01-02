@@ -52,7 +52,6 @@ p {
     align-items: center;
     padding-top: 40px;
   }
-  }
   .ios {
     background-color: hsl(171, 66%, 44%);
     color: #fff;
@@ -87,4 +86,63 @@ p {
     -webkit-box-shadow: 4px 10px 27px rgba(0, 0, 0, 0.2)  ; 
     -moz-box-shadow: 4px 10px 27px rgba(0, 0, 0, 0.2)  ; 
   }
-}
+  section .snippets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .secondary-heading {
+    padding: 0 40px;
+    text-align: center;
+  }
+  .secondary-heading p {
+    color: hsl(210, 10%, 33%);
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .snippets-image {
+    background-image: url(../images/image-computer.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .clipboard-features {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-titles {
+    color: hsl(210, 10%, 33%);
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .feature-description {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    padding: 20px 20px 40px 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .devices {
+    background-image: url(../images/image-devices.png);
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    margin-bottom: 60px;
+  }
+  .blacklist-icon {
+    background-image: url(../images/icon-blacklist.svg);
+  }
+};
