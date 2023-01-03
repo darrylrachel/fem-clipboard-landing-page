@@ -26,7 +26,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     height: 180px;
-    padding: 40px 0 0 0;
+    padding: 120px 0 0 0;
   }
   .heading {
     padding: 0 40px;
@@ -120,6 +120,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
   }
   .feature-titles {
     color: hsl(210, 10%, 33%);
@@ -142,7 +143,73 @@ p {
     height: 200px;
     margin-bottom: 60px;
   }
-  .blacklist-icon {
-    background-image: url(../images/icon-blacklist.svg);
+  .icons {
+    padding-bottom: 10px;
+  }
+  .brand-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .brands {
+    padding-bottom: 60px;
+  }
+  .brands:nth-child(1) {
+    padding-top: 60px;
+  }
+  .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px 0 16px;
+  }
+  .cta-title {
+    color: hsl(210, 10%, 33%);
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .cta-description {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    padding: 15px 20px 0 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .cta-btn {
+    padding-top: 40px;
+    margin-bottom: 60px;
+  }
+  .footer {
+    background-color: hsl(180, 5%, 92%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 60px 0;
+  }
+  .logo-small {
+    width: 56px;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+  .links {
+    color:hsl(210, 10%, 33%);
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+    padding-top: 60px;
+  }
+  .social-icons {
+    width: 30px;
   }
 };
